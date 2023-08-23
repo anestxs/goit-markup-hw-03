@@ -4,6 +4,29 @@ body {
     background-color: #FFFFFF;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+img {
+    display: block;
+}
+
 .logo {
     font-size: 18px;
     font-weight: 700;
@@ -13,6 +36,7 @@ body {
     font-family: "Raleway", sans-serif;
     color: #4D5AE5;
     text-decoration: none;
+    margin-right: 76px;
 }
 
 .logo-second-part {
@@ -26,6 +50,7 @@ body {
     letter-spacing: 0.02em;
     color: #2E2F42;
     text-decoration: none;
+    padding: 24px 0;
 }
 
 .site-links:hover,
@@ -38,7 +63,7 @@ body {
 }
 
 
-.adress-data { 
+.adress-data {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -52,7 +77,7 @@ body {
     color: #404BBF;
 }
 
-.first-slide { 
+.first-slide {
     background-color: #2E2F42;
 }
 
@@ -106,7 +131,7 @@ body {
     background-color: #F4F4FD;
 }
 
-.third-slide-title { 
+.third-slide-title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
@@ -162,7 +187,7 @@ body {
     text-align: left;
 }
 
-.project-example-text { 
+.project-example-text {
     font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -189,4 +214,32 @@ body {
     color: #F4F4FD;
 }
 
+.container {
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 
+.site-header {
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.site-header-container {
+    display: flex;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-site-links {
+    display: flex;
+    gap: 40px;
+}
+
+.phone-and-mail-for-flex {
+    display: flex;
+    gap: 40px;
+    margin-left: 332px;
+}
