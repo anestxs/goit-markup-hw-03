@@ -51,7 +51,7 @@ img {
     color: #2E2F42;
     text-decoration: none;
     padding: 24px 0;
-
+    display: block;
 }
 
 .site-links:hover,
@@ -258,11 +258,13 @@ img {
 .nav-site-links {
     display: flex;
     gap: 40px;
+    margin-right: 332px;
 }
 
 .phone-and-mail-for-flex {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .second-slide {
