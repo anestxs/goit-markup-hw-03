@@ -234,7 +234,7 @@ img {
 
 .site-header-container {
     display: flex;
-    padding: 24px 15px;
+    padding: 0 15px;
     max-width: 1158px;
 }
 
