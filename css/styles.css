@@ -226,6 +226,8 @@ img {
 
 .container {
     margin: 0 auto;
+    width: 1158px;
+    padding: 0 15px;
 }
 
 .site-header {
@@ -234,9 +236,6 @@ img {
 
 .site-header-container {
     display: flex;
-    padding: 0 15px;
-    max-width: 1158px;
-    padding: 24px 0;
 }
 
 .nav-list {
@@ -252,5 +251,4 @@ img {
 .phone-and-mail-for-flex {
     display: flex;
     gap: 40px;
-    margin-left: 332px;
 }
