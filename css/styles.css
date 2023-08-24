@@ -236,6 +236,7 @@ img {
     display: flex;
     padding: 0 15px;
     max-width: 1158px;
+    padding: 24px 0;
 }
 
 .nav-list {
