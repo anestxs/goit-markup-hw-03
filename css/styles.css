@@ -219,6 +219,7 @@ img {
 
 .ending {
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 
 .ending-logo-second-part {
@@ -232,6 +233,7 @@ img {
     letter-spacing: 0.02em;
     font-weight: 400;
     color: #F4F4FD;
+    max-width: 264px;
 }
 
 .container {
@@ -309,4 +311,9 @@ img {
     padding: 32px 16px 32px;
     border: 1px solid #E7E9FC;
     border-top: none;
+}
+
+.ending-logo {
+    display: inline-block;
+    margin-bottom: 16px;
 }
